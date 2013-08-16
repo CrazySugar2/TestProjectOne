@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B26F9AEC17BDEC5900A7B669 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26F9AEB17BDEC5900A7B669 /* UIKit.framework */; };
+		B26F9AEE17BDEC5900A7B669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26F9AED17BDEC5900A7B669 /* Foundation.framework */; };
+		B26F9AF017BDEC5900A7B669 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26F9AEF17BDEC5900A7B669 /* CoreGraphics.framework */; };
+		B26F9AF617BDEC5900A7B669 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B26F9AF417BDEC5900A7B669 /* InfoPlist.strings */; };
+		B26F9AF817BDEC5900A7B669 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F9AF717BDEC5900A7B669 /* main.m */; };
+		B26F9AFC17BDEC5900A7B669 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B26F9AFB17BDEC5900A7B669 /* AppDelegate.m */; };
+		B26F9AFE17BDEC5900A7B669 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F9AFD17BDEC5900A7B669 /* Default.png */; };
+		B26F9B0017BDEC5900A7B669 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F9AFF17BDEC5900A7B669 /* Default@2x.png */; };
+		B26F9B0217BDEC5900A7B669 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B26F9B0117BDEC5900A7B669 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B26F9AE817BDEC5900A7B669 /* SKY_RemoteControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKY_RemoteControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26F9AEB17BDEC5900A7B669 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B26F9AED17BDEC5900A7B669 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B26F9AEF17BDEC5900A7B669 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B26F9AF317BDEC5900A7B669 /* SKY_RemoteControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKY_RemoteControl-Info.plist"; sourceTree = "<group>"; };
+		B26F9AF517BDEC5900A7B669 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B26F9AF717BDEC5900A7B669 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B26F9AF917BDEC5900A7B669 /* SKY_RemoteControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKY_RemoteControl-Prefix.pch"; sourceTree = "<group>"; };
+		B26F9AFA17BDEC5900A7B669 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B26F9AFB17BDEC5900A7B669 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B26F9AFD17BDEC5900A7B669 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B26F9AFF17BDEC5900A7B669 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B26F9B0117BDEC5900A7B669 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B26F9AE517BDEC5900A7B669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26F9AEC17BDEC5900A7B669 /* UIKit.framework in Frameworks */,
+				B26F9AEE17BDEC5900A7B669 /* Foundation.framework in Frameworks */,
+				B26F9AF017BDEC5900A7B669 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B26F9ADF17BDEC5900A7B669 = {
+			isa = PBXGroup;
+			children = (
+				B26F9AF117BDEC5900A7B669 /* SKY_RemoteControl */,
+				B26F9AEA17BDEC5900A7B669 /* Frameworks */,
+				B26F9AE917BDEC5900A7B669 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B26F9AE917BDEC5900A7B669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B26F9AE817BDEC5900A7B669 /* SKY_RemoteControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B26F9AEA17BDEC5900A7B669 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B26F9AEB17BDEC5900A7B669 /* UIKit.framework */,
+				B26F9AED17BDEC5900A7B669 /* Foundation.framework */,
+				B26F9AEF17BDEC5900A7B669 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B26F9AF117BDEC5900A7B669 /* SKY_RemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				B26F9AFA17BDEC5900A7B669 /* AppDelegate.h */,
+				B26F9AFB17BDEC5900A7B669 /* AppDelegate.m */,
+				B26F9AF217BDEC5900A7B669 /* Supporting Files */,
+			);
+			path = SKY_RemoteControl;
+			sourceTree = "<group>";
+		};
+		B26F9AF217BDEC5900A7B669 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B26F9AF317BDEC5900A7B669 /* SKY_RemoteControl-Info.plist */,
+				B26F9AF417BDEC5900A7B669 /* InfoPlist.strings */,
+				B26F9AF717BDEC5900A7B669 /* main.m */,
+				B26F9AF917BDEC5900A7B669 /* SKY_RemoteControl-Prefix.pch */,
+				B26F9AFD17BDEC5900A7B669 /* Default.png */,
+				B26F9AFF17BDEC5900A7B669 /* Default@2x.png */,
+				B26F9B0117BDEC5900A7B669 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B26F9AE717BDEC5900A7B669 /* SKY_RemoteControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26F9B0517BDEC5900A7B669 /* Build configuration list for PBXNativeTarget "SKY_RemoteControl" */;
+			buildPhases = (
+				B26F9AE417BDEC5900A7B669 /* Sources */,
+				B26F9AE517BDEC5900A7B669 /* Frameworks */,
+				B26F9AE617BDEC5900A7B669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKY_RemoteControl;
+			productName = SKY_RemoteControl;
+			productReference = B26F9AE817BDEC5900A7B669 /* SKY_RemoteControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B26F9AE017BDEC5900A7B669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "王炫殊";
+			};
+			buildConfigurationList = B26F9AE317BDEC5900A7B669 /* Build configuration list for PBXProject "SKY_RemoteControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B26F9ADF17BDEC5900A7B669;
+			productRefGroup = B26F9AE917BDEC5900A7B669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B26F9AE717BDEC5900A7B669 /* SKY_RemoteControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B26F9AE617BDEC5900A7B669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26F9AF617BDEC5900A7B669 /* InfoPlist.strings in Resources */,
+				B26F9AFE17BDEC5900A7B669 /* Default.png in Resources */,
+				B26F9B0017BDEC5900A7B669 /* Default@2x.png in Resources */,
+				B26F9B0217BDEC5900A7B669 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B26F9AE417BDEC5900A7B669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26F9AF817BDEC5900A7B669 /* main.m in Sources */,
+				B26F9AFC17BDEC5900A7B669 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B26F9AF417BDEC5900A7B669 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26F9AF517BDEC5900A7B669 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B26F9B0317BDEC5900A7B669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B26F9B0417BDEC5900A7B669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B26F9B0617BDEC5900A7B669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKY_RemoteControl/SKY_RemoteControl-Prefix.pch";
+				INFOPLIST_FILE = "SKY_RemoteControl/SKY_RemoteControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B26F9B0717BDEC5900A7B669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKY_RemoteControl/SKY_RemoteControl-Prefix.pch";
+				INFOPLIST_FILE = "SKY_RemoteControl/SKY_RemoteControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B26F9AE317BDEC5900A7B669 /* Build configuration list for PBXProject "SKY_RemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26F9B0317BDEC5900A7B669 /* Debug */,
+				B26F9B0417BDEC5900A7B669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26F9B0517BDEC5900A7B669 /* Build configuration list for PBXNativeTarget "SKY_RemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26F9B0617BDEC5900A7B669 /* Debug */,
+				B26F9B0717BDEC5900A7B669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B26F9AE017BDEC5900A7B669 /* Project object */;
+}
